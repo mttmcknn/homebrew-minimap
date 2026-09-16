@@ -1,10 +1,10 @@
 class Minimap < Formula
   desc "Shared navigation memory for AI agents working in Android codebases"
-  homepage "https://github.com/himattm/minimap"
-  url "https://github.com/himattm/minimap/archive/refs/tags/v0.1.3.tar.gz"
+  homepage "https://github.com/mttmcknn/minimap"
+  url "https://github.com/mttmcknn/minimap/archive/refs/tags/v0.1.3.tar.gz"
   sha256 "807bd611060674f3c1a50f854b33825b48f36e974b9a738cb080a9038cd830e0"
   license "Apache-2.0"
-  head "https://github.com/himattm/minimap.git", branch: "main"
+  head "https://github.com/mttmcknn/minimap.git", branch: "main"
 
   depends_on "rust" => :build
 
